@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "event-driven-python"
+version = "0.1.0"
+description = "A simple observer pattern implementation"
+authors = ["Akin01 <Akinpasha82@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
